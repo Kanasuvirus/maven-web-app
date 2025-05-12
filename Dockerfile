@@ -2,7 +2,7 @@
 FROM tomcat:9-jdk11
 
 # Copy the WAR file into the Tomcat webapps directory
-COPY target/yourapp.war /usr/local/tomcat/webapps/yourapp.war
+COPY target/yourapp.war /usr/local/tomcat/webapps/maven-web-app
 
 # Expose the default Tomcat port
 EXPOSE 8080
